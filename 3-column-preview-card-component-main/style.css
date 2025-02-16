@@ -1,0 +1,59 @@
+.container {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;      
+}
+
+.Sedans, .Suvs, .Luxury {
+    width: 210px;
+    padding: 30px;
+    color: white;
+    text-align: left;
+}
+
+.Sedans {
+    background-color: #D98E3C;
+}
+.Suvs {
+    background-color: #0F636D;
+}
+.Luxury {
+    background-color: #043F36;
+}
+
+h1{
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 70px;
+    line-height: 1.6;
+}
+
+.img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-bottom: 20px ;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
